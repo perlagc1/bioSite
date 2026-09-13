@@ -3,3 +3,51 @@ Name: Perla Garcia Cavazos
 Date: 09/13/2026
 Assignment: bioSite Development
 */
+
+/* ====== GLOBAL STYLES ====== */
+body {
+  font-family: "Times New Roman", serif;
+  background-color: #E5E5E5;
+  color: #1F3A5F;
+  margin: 0;
+  padding: 0;
+}
+
+/* ====== HEADER ====== */
+header {
+  background-color: #1F3A5F;
+  color: #F5DEB3;
+  text-align: center;
+  padding: 20px;
+}
+
+nav a {
+  color: #F5DEB3;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #C75C5C;
+}
+
+/* ====== MAIN CONTENT ====== */
+main {
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: "Arial Black", sans-serif;
+  color: #1F3A5F;
+}
+
+/* ====== FOOTER ====== */
+footer {
+  background-color: #1F3A5F;
+  color: #F5DEB3;
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9em;
+}
