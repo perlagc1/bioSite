@@ -1,53 +1,51 @@
-/*
-Name: Perla Garcia Cavazos
-Date: 09/13/2026
-Assignment: bioSite Development
-*/
+/* Perla Garcia Cavazos | 09/14/2026 | bioSite Styles */
 
-/* ====== GLOBAL STYLES ====== */
 body {
-  font-family: "Times New Roman", serif;
-  background-color: #E5E5E5;
-  color: #1F3A5F;
-  margin: 0;
-  padding: 0;
+    font-family: "Times New Roman", serif;
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
 }
 
-/* ====== HEADER ====== */
-header {
-  background-color: #1F3A5F;
-  color: #F5DEB3;
-  text-align: center;
-  padding: 20px;
-}
-
-nav a {
-  color: #F5DEB3;
-  text-decoration: none;
-  margin: 0 10px;
-  font-weight: bold;
-}
-
-nav a:hover {
-  color: #C75C5C;
-}
-
-/* ====== MAIN CONTENT ====== */
-main {
-  padding: 20px;
-  line-height: 1.6;
+header, footer {
+    background-color: #1F3A5F;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
 h1, h2, h3 {
-  font-family: "Arial Black", sans-serif;
-  color: #1F3A5F;
+    font-family: "Arial Black", sans-serif;
+    color: #1F3A5F;
 }
 
-/* ====== FOOTER ====== */
-footer {
-  background-color: #1F3A5F;
-  color: #F5DEB3;
-  text-align: center;
-  padding: 10px;
-  font-size: 0.9em;
+nav a {
+    color: #F5DEB3;
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: "Arial Black";
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+figure {
+    text-align: center;
+    margin: 30px 0;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+    margin-top: 8px;
 }
